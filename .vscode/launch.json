@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: First Agent Template",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/templates/First_agent_template/app.py",
+      "cwd": "${workspaceFolder}/templates/First_agent_template",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

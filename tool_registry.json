@@ -1,0 +1,14 @@
+[
+  {
+    "name": "text_to_json",
+    "description": "Parses a text string into JSON."
+  },
+  {
+    "name": "extract_pdf_text",
+    "description": "Extracts text from a PDF file given a path."
+  },
+  {
+    "name": "get_system_metrics",
+    "description": "Returns CPU, memory, and disk utilization."
+  }
+]
