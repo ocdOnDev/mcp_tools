@@ -44,3 +44,15 @@ curl -X POST http://localhost:8080/tools/extract_pdf_text \
       "location": "Amsterdam"
     }
   }'
+
+  the latest tool:
+  # Start the server
+python -m uvicorn app:app --reload
+
+# Test via API
+curl -X POST http://localhost:8080/mcp/tools/invoke \
+  -H "Content-Type: application/json" \
+  -d '{
+    "tool": "youtube_analyzer",
+    "args": {"url": "https://www.youtube.com/watch?v=H3TI1JjPmtI"}
+  }'

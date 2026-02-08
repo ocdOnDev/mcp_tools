@@ -5,3 +5,9 @@ __pycache__/
 *.pyd
 .DS_Store
 .env
+
+#ignore the following files
+saveTheDate.md
+scraptext*
+output.json
+request.json

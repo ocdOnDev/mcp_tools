@@ -1,7 +1,7 @@
-from visit_webpage import Input, execute
+from tools.visit_webpage import Input, execute
 
 # Create input data
-data = Input(url="https://www.telegraaf.nl")
+data = Input(url="https://www.nu.nl")
 
 # Run tool
 result = execute(data)
