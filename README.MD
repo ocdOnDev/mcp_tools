@@ -56,3 +56,9 @@ curl -X POST http://localhost:8080/mcp/tools/invoke \
     "tool": "youtube_analyzer",
     "args": {"url": "https://www.youtube.com/watch?v=H3TI1JjPmtI"}
   }'
+
+  # another model instead of ollama
+
+  curl -X POST http://your-server:8080/tools/youtube_summary_anthropic \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://www.youtube.com/watch?v=VIDEO_ID"}'
